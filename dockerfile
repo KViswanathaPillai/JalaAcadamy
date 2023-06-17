@@ -1,6 +1,7 @@
 FROM amazonlinux
 
 MAINTAINER Aftab Mulani <aftabmulani001@gmail.com>
+WORKDIR "/test1"
 
 RUN yum update -y
 
