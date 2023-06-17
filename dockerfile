@@ -1,4 +1,4 @@
-FROM scratch
+FROM LINUX
 
 RUN sudo yum update
 
