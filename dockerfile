@@ -5,7 +5,7 @@ WORKDIR "Jala-Java-Selenium"
 
 CMD ["sudo", "yum", "Update"]
 
-RUN sudo yum install git -y
+RUN sudo apt-get install git
 
 CMD ["sudo yum install maven"]
 
