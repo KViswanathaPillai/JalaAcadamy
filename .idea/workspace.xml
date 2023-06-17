@@ -38,7 +38,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Docker.dockerfile">
+  <component name="RunManager" selected="JUnit.AppTest">
     <configuration name="AppTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Trial" />
       <extension name="coverage">
@@ -68,8 +68,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Docker.dockerfile" />
         <item itemvalue="JUnit.AppTest" />
+        <item itemvalue="Docker.dockerfile" />
       </list>
     </recent_temporary>
   </component>
@@ -85,7 +85,7 @@
       <workItem from="1685204881360" duration="143000" />
       <workItem from="1685205043569" duration="36000" />
       <workItem from="1685205096264" duration="5000" />
-      <workItem from="1687005166848" duration="4974000" />
+      <workItem from="1687005166848" duration="6363000" />
     </task>
     <servers />
   </component>

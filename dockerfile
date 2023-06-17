@@ -1,6 +1,7 @@
 FROM amazonlinux
 
 MAINTAINER Aftab Mulani <aftabmulani001@gmail.com>
+WORKDIR "Jala-Java-Selenium"
 
 CMD ["sudo", "yum", "Update"]
 
