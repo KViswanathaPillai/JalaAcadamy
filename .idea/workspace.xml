@@ -38,7 +38,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Docker.dockerfile">
     <configuration name="AppTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Trial" />
       <extension name="coverage">
@@ -58,8 +58,17 @@
       <deployment type="dockerfile" />
       <method v="2" />
     </configuration>
+    <configuration name="dockerfile" type="docker-deploy" factoryName="dockerfile" temporary="true" server-name="Docker">
+      <deployment type="dockerfile">
+        <settings>
+          <option name="sourceFilePath" value="dockerfile" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Docker.dockerfile" />
         <item itemvalue="JUnit.AppTest" />
       </list>
     </recent_temporary>
@@ -76,7 +85,7 @@
       <workItem from="1685204881360" duration="143000" />
       <workItem from="1685205043569" duration="36000" />
       <workItem from="1685205096264" duration="5000" />
-      <workItem from="1687005166848" duration="4283000" />
+      <workItem from="1687005166848" duration="4974000" />
     </task>
     <servers />
   </component>

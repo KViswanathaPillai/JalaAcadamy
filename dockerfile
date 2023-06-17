@@ -1,4 +1,4 @@
-FROM LINUX
+FROM amazonlinux
 
 RUN sudo yum update
 
