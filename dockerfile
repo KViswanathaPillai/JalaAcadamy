@@ -5,6 +5,8 @@ WORKDIR "Jala-Java-Selenium"
 
 CMD ["sudo", "yum", "Update"]
 
+RUN sudo yum install git -y
+
 CMD ["sudo yum install maven"]
 
 CMD ["sudo mvn -D maven.test.failure.ignore=true clean package"]
