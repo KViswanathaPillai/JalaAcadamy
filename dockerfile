@@ -9,4 +9,6 @@ RUN yum install git -y
 
 RUN yum install maven -y
 
+RUN git clone https://github.com/AftabMulani11/test1.git
+
 CMD ["sudo mvn -D maven.test.failure.ignore=true clean package"]
