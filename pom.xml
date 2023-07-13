@@ -8,12 +8,16 @@
     <artifactId>Trial</artifactId>
     <version>1.0-SNAPSHOT</version>
     <packaging>jar</packaging>
-         
+    <properties>
+        <maven.compiler.source>18</maven.compiler.source>
+        <maven.compiler.target>18</maven.compiler.target>
+    </properties>
+
     <dependencies>
         <dependency>
 			<groupId>org.seleniumhq.selenium</groupId>
 			<artifactId>selenium-java</artifactId>
-			<version>4.7.1</version>
+			<version>4.10.0</version>
 		</dependency>
 
         <dependency>
@@ -26,13 +30,13 @@
         <dependency>
             <groupId>org.seleniumhq.selenium</groupId>
             <artifactId>selenium-chrome-driver</artifactId>
-            <version>4.7.1</version>
+            <version>4.10.0</version>
         </dependency>
 
         <dependency>
             <groupId>org.testng</groupId>
             <artifactId>testng</artifactId>
-            <version>7.7.0</version>
+            <version>7.8.0</version>
         </dependency>
 
         <dependency>
