@@ -10,5 +10,3 @@ RUN dnf install java-11-amazon-corretto -y
 RUN yum install git -y
 
 RUN yum install maven -y
-
-RUN mvn pom.xml clean package
