@@ -9,5 +9,8 @@ RUN yum update -y
 
 RUN dnf install java-11-amazon-corretto -y
 
+COPY . .
+
 RUN yum install maven -y
+
 RUN mvn clean package
