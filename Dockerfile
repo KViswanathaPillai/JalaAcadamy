@@ -11,4 +11,4 @@ RUN yum install git -y
 
 RUN yum install maven -y
 
-RUN mvn Project 1/pom.xml clean package
+RUN mvn pom.xml clean package
