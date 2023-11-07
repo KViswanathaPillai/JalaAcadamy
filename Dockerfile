@@ -1,5 +1,6 @@
 FROM amazonlinux
 
+
 MAINTAINER Aftab Mulani <aftabmulani001@gmail.com>
 WORKDIR "/var/lib/jenkins/workspace/Project 1/"
 
